@@ -1,5 +1,5 @@
 # Pocket Crystal League -- PortMaster Fork
-This is a fork of [Pocket Crystal League](https://gitlab.com/moodytail/pokecards) from the 2024/06/18 update v2.3.1.0. The only difference with this fork, which is used for the [PortMaster distribution](https://portmaster.games/detail.html?name=pocketcrystalleague), is externalized audio. 
+This is a fork of [Pocket Crystal League](https://gitlab.com/moodytail/pokecards) from the `2024/06/18 update v2.3.1.0`. The only difference with this fork, which is used for the [PortMaster distribution](https://portmaster.games/detail.html?name=pocketcrystalleague), is externalized audio. 
 The original game uses embedded audio with music taken straight from Pokemon TCG GameBoy Color. This fork swaps that music for arranged variations more befitting to the GameBoy Advance theme.
 
 ## Building
