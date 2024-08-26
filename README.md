@@ -8,5 +8,6 @@ PortMaster port folder.
 
 ## Music Credits
 The Noble Demon -- [Mason's Lab/World Map Arrangement](https://www.youtube.com/watch?v=hFPaaxFTP9w), [Normal Duel Arrangement](https://www.youtube.com/watch?v=2HwAGxS0F4U), [Club Master Duel Arrangement](https://www.youtube.com/watch?v=eXhFe3y95PQ)  
+Nick Roeslein Oleksiak -- [Grandmaster Duel Arrangement](https://www.youtube.com/watch?v=14c3vyfk2wg)  
 Zame & Pascal van den Bos -- [Ronald's Theme](https://www.youtube.com/watch?v=Y8KYfvhbIgo)  
 
