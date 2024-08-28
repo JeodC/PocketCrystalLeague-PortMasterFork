@@ -10,11 +10,11 @@ if show_deck=true {
 	//————————————————————————————————————————————————————————————————————————————————————————————————————
 	// SCROLL BAR (ob_event & ob_deckbuild)
 	if mouse_y>=screen_main_y+deck_y-8 and mouse_y<screen_main_y+deck_y+80 and ob_main.cursor_hide=false {
-		if mouse_wheel_up() {
+		if mouse_wheel_up() || (keyboard_check(ord("Q"))) {
 			deck_x+=32;
 			if deck_x>4 { deck_x=4; }
 		}
-		else if mouse_wheel_down() and cam_w<(card_event_total*60) {
+		else if mouse_wheel_down() || (keyboard_check(ord("E"))) and cam_w<(card_event_total*60) {
 			deck_x-=32;
 			if deck_x<cam_w-(card_event_total*60)-1 { deck_x=cam_w-(card_event_total*60)-1; }
 		}
