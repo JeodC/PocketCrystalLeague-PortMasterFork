@@ -197,7 +197,7 @@ for (var i=0; i<deck_build_used_total; i++;) {
 //————————————————————————————————————————————————————————————————————————————————————————————————————
 // SCROLL BARS (ob_event & ob_deckbuild)
 if mouse_y>=screen_main_y+stored_y and mouse_y<screen_main_y+stored_y+80+8 and ob_main.cursor_hide=false {
-	if mouse_wheel_up() {
+	if mouse_wheel_up() || (keyboard_check(ord("Q"))) {
 		stored_x+=32;
 		if stored_x>4 { stored_x=4; }
 	}
@@ -207,11 +207,11 @@ if mouse_y>=screen_main_y+stored_y and mouse_y<screen_main_y+stored_y+80+8 and o
 	}
 }
 else if mouse_y>=screen_main_y+used_y-8 and mouse_y<screen_main_y+used_y+80 and ob_main.cursor_hide=false {
-	if mouse_wheel_up() {
+	if mouse_wheel_up() || (keyboard_check(ord("Q"))) {
 		used_x+=32;
 		if used_x>4 { used_x=4; }
 	}
-	else if mouse_wheel_down() and cam_w<(deck_build_used_total*60) {
+	else if mouse_wheel_down() || (keyboard_check(ord("E"))) and cam_w<(deck_build_used_total*60) {
 		used_x-=32;
 		if used_x<cam_w-(deck_build_used_total*60)-1 { used_x=cam_w-(deck_build_used_total*60)-1; }
 	}
