@@ -201,7 +201,7 @@ if mouse_y>=screen_main_y+stored_y and mouse_y<screen_main_y+stored_y+80+8 and o
 		stored_x+=32;
 		if stored_x>4 { stored_x=4; }
 	}
-	else if mouse_wheel_down() and cam_w<(deck_build_stored_total*60) {
+	else if mouse_wheel_down() || (keyboard_check(ord("E"))) and cam_w<(deck_build_stored_total*60) {
 		stored_x-=32;
 		if stored_x<cam_w-(deck_build_stored_total*60)-1 { stored_x=cam_w-(deck_build_stored_total*60)-1; }
 	}
